@@ -1,0 +1,60 @@
+/
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Button Styles */
+button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Input Styles */
+input[type="text"], input[type="password"] {
+    padding: 8px;
+    margin: 5px 0;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #e9ecef;
+}
